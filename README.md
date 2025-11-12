@@ -20,3 +20,32 @@ material for other data types if you find this repository useful.
 
 *Author:* Martin Schultz, Jülich Supercomputing Centre, Forschungszentrum Jülich & Department of Computer Science and Math, University of Cologne
 October 2025
+# Earth System Data Processing
+
+This project explores ECMWF **AIFS** (Artificial Intelligence Forecasting System) data using [Earthkit](https://earthkit.readthedocs.io/en/latest/).
+
+## Setup
+
+1. Create a Conda environment:
+   ```bash
+   conda create -n aifs python=3.11
+   conda activate aifs
+   conda install -c conda-forge earthkit-data earthkit-plots ecmwf-opendata cfgrib xarray matplotlib cartopy
+# AIFS Single: Surface Download + Quicklook
+
+This notebook/script downloads ECMWF **AIFS Single** surface fields from **ECMWF Open Data** and plots a global quicklook.
+
+## What it does
+- Fetches `2t`, `10u`, `10v`, `msl` at steps `[6, 12, 24]` for a given run (`date`, `time`)
+- Saves GRIB2 files under `data/`
+- Optionally opens with `xarray+cfgrib` and plots with Cartopy
+
+## Requirements
+- Conda (recommended on Windows)
+- See `environment.yml` for all packages (PROJ/GEOS handled by conda-forge)
+- ECMWF Open Data retention is short (≈ a few days). Use recent runs only.
+
+## Setup
+```bash
+conda env create -f environment.yml
+conda activate aifs
