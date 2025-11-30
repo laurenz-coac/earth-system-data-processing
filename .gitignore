@@ -45,7 +45,7 @@ plots/
 *.index
 *.nc
 *.csv
-*.png
+
 *.pdf
 *.log
 *.zip
