@@ -1,5 +1,5 @@
-# Exploring NASA GPM IMERG Precipitation Data (Half-Hourly, V07 Final Run)
-## 1. Dataset Identification
+## Exploring NASA GPM IMERG Precipitation Data (Half-Hourly, V07 Final Run)
+### 1. Dataset Identification
 
 I started my search by browsing different Earth system datasets listed in the homework instructions. NASA **GPM IMERG precipitation dataset** immediately caught my interest, because I work with ground-based rain-rate measurements (e.g., Parsivel disdrometers). I wanted to understand how global precipitation products compare. IMERG will help me explore precipitation from a global, satellite-based perspective rather than point-wise ground sensors.
 
@@ -14,7 +14,7 @@ I selected **IMERG Half-Hourly Final Run (V07)** because:
 
 ---
 
-## Searching & Navigating Data Portals
+### Searching & Navigating Data Portals
 
 I started at NASA’s IMERG information page and navigated into the GES DISC data archive. The dataset structure was straightforward:
 - Dataset: GPM_3IMERGHH.07 (Half-hourly, Version 07)
@@ -44,17 +44,17 @@ Download options include GUI (browser) or automated Python access
 ---
 
 
-## 3. Dataset Documentation
+### 3. Dataset Documentation
 
 NASA provides excellent documentation. The following URLs were essential:
 
-###  IMERG Product Overview  
+####  IMERG Product Overview  
 https://gpm.nasa.gov/data/imerg
 
-### FAQ for IMERG V07 Applications Users_202502.pdf 
+#### FAQ for IMERG V07 Applications Users_202502.pdf 
 https://gpm.nasa.gov/media/708
 
-### GES DISC IMERG Product Page  
+#### GES DISC IMERG Product Page  
 https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary
 
 These explained:
@@ -69,11 +69,11 @@ Everything was well linked and beginner-friendly.
 
 ---
 
-## 4. Authentication & Technical Workflow
+### 4. Authentication & Technical Workflow
 
 GES DISC requires **Earthdata login authentication**, no API token needed.
 
-###  Creating `.netrc`
+####  Creating `.netrc`
 
 ```bash
 vi ~/.netrc
@@ -117,7 +117,7 @@ The only limitation is that IMERG files must be downloaded entirely; variable-le
 
 ---
 
-## 5. Understanding the File Structure
+### 5. Understanding the File Structure
 
 The naming convention was intuitive after brief inspection:
 
@@ -138,7 +138,7 @@ Once I understood this, navigation was trivial.
 
 ---
 
-## 6. Evaluation of the Data Portal (GES DISC)
+### 6. Evaluation of the Data Portal (GES DISC)
 
 Overall, the GES DISC portal was extremely smooth to use:
 
@@ -157,7 +157,7 @@ Otherwise, it is an excellent, accessible, well-organized platform for scientifi
 
 ---
 
-## 7. AI Assistance Documentation
+### 7. AI Assistance Documentation
 
 I used ChatGPT for the following verified queries:
 
