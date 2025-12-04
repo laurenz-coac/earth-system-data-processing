@@ -177,3 +177,6 @@ I used ChatGPT for the following verified queries:
 - Opening an HDF5 file with `h5py`:
   - I had never parsed HDF5 before
   - ChatGPT helped me explore the tree structure and attributes
+
+- I also used AI assistance to extract precipitation values for Cologne and Kolkata, 
+and to search the IMERG grid for locations with non-zero precipitation on May 1, 2025. 
