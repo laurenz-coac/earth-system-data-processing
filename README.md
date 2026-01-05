@@ -22,11 +22,11 @@ material for other data types if you find this repository useful.
 Martin Schultz, Jülich Supercomputing Centre, Forschungszentrum Jülich & Department of Computer Science and Math, University of Cologne
 
 ## Contributors
-Darya Fomicheva
-Yeganeh Khabbazian
-Laurenz Schindler
-Patrick Seidel
-Gaurav Somani
+* Darya Fomicheva, 
+* Yeganeh Khabbazian, 
+* Laurenz Schindler, 
+* Patrick Seidel, 
+* Gaurav Somani
 
 ## Version
 05 January 2026
